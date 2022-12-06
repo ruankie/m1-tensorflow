@@ -3,6 +3,7 @@
 # m1-tensorflow
 Template setup of GPU-enabled Tensorflow development environment on the Apple M1 chip with Apple GPU
 This template development environment includes the following common data science packages:
+
     - Tensorflow
     - Pandas
     - Numpy
@@ -42,3 +43,6 @@ This template creates the following folder structure:
     ├── __init__.py
     └── utils.py
 ```
+## References
+- https://developer.apple.com/metal/tensorflow-plugin/
+- https://stackoverflow.com/questions/72964800/what-is-the-proper-way-to-install-tensorflow-on-apple-m1-in-2022
