@@ -1,20 +1,21 @@
-[![GitHub Repo stars](https://img.shields.io/github/stars/ruankie/conda-py-minimal-template)](https://github.com/ruankie/conda-py-minimal-template)
-[![GitHub file size in bytes](https://img.shields.io/github/size/ruankie/conda-py-minimal-template)](https://github.com/ruankie/conda-py-minimal-template)
+[![GitHub Repo stars](https://img.shields.io/github/stars/ruankie/m1-tensorflow)](https://github.com/ruankie/m1-tensorflow)
 
-# conda-py-minimal-template
-Minimal template with the essentials for quickly setting up new python projects. Includes a simple folder structure and a conda environment for isolated dependency management.
+# m1-tensorflow
+Template setup of GPU-enabled Tensorflow development environment on the Apple M1 chip with Apple GPU
 
 ## Usage
 1. Start a new repo using this template
 2. Update your `LICENSE` file.
 3. Update your `README.md` file.
+   1. Update description
+   2. Update usage
+   3. Update shields
 4. Set up and activate conda environment
-   1. Rename your conda environment in the `./conda.yml` file.
-   2. Add/change any dependencies and their versions in the `./conda.yml` file.
-   3. Set up your conda environment and activate it by running:
+   1. Add/change any dependencies and their versions in the `./conda.yml` file.
+   2. Set up your conda environment and activate it by running:
         ```bash
         conda env create -f conda.yml
-        conda activate <your-env-name>
+        conda activate tf-metal
         ```
 5. Add your own scripts in `./src/`
 6. Add your own notebooks in `./notebooks/`
