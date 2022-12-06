@@ -2,6 +2,12 @@
 
 # m1-tensorflow
 Template setup of GPU-enabled Tensorflow development environment on the Apple M1 chip with Apple GPU
+This template development environment includes the following common data science packages:
+    - Tensorflow
+    - Pandas
+    - Numpy
+    - Seaborn
+    - Jupyter Lab
 
 ## Usage
 1. Start a new repo using this template
