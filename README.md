@@ -44,5 +44,6 @@ This template creates the following folder structure:
     └── utils.py
 ```
 ## References
+- https://www.tensorflow.org/
 - https://developer.apple.com/metal/tensorflow-plugin/
 - https://stackoverflow.com/questions/72964800/what-is-the-proper-way-to-install-tensorflow-on-apple-m1-in-2022
